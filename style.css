@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  min-width: 345px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #222222;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: #333333;
+  width: 345px;
+  height: 345px;
+  border-radius: 10px;
+  padding: 1rem;
+  border: 2px solid #555555;
+}
+h1 {
+  margin: 1rem;
+}
+form label {
+  font-size: 1.2rem;
+  width: 200px;
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #555555;
+}
+form div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 30px;
+}
+#dob {
+  width: 200px;
+}
+form input {
+  background-color: #555555;
+  color: white;
+  width: 100px;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  text-align: center;
+}
